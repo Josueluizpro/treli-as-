@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #f1c40f;
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.perfil {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+.descricao {
+  text-align: justify;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 4px solid #f1c40f;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img, 
+.card iframe {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.botao-voltar {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #444;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.botao-voltar:hover {
+  background-color: #222;
+}
+
+footer {
+  background-color: #f1c40f;
+  color: #222;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.contador {
+  margin-top: 10px;
+}
+
+.contador img {
+  display: block;
+  margin: 0 auto;
+}
+
+.contador p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #222;
+}
